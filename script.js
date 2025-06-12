@@ -6,5 +6,11 @@ function toggleMenu() {
 	icon.classList.toggle("open");
 }
 
-let currentDate = new Date();
-let date = currentDate.getFullYear();
+function setDate() {
+	let currentDate = new Date();
+	let date = currentDate.getFullYear();
+	let dateText = document.querySelector(".date");
+	dateText.innerHTML = date;
+}
+
+setDate();
