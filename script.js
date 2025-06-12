@@ -5,3 +5,6 @@ function toggleMenu() {
 	menu.classList.toggle("open");
 	icon.classList.toggle("open");
 }
+
+let currentDate = new Date();
+let date = currentDate.getFullYear();
