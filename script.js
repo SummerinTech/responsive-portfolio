@@ -12,5 +12,4 @@ function setDate() {
 	let dateText = document.querySelector(".date");
 	dateText.innerHTML = date;
 }
-
 setDate();
